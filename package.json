@@ -1,0 +1,25 @@
+{
+  "name": "aquaculture-decision-hub-backend",
+  "version": "1.0.0",
+  "description": "Production backend for AquaIntelligent Document Intake & Decision Hub",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "start:prod": "NODE_ENV=production node index.js",
+    "start:pm2": "npx pm2 start ecosystem.config.cjs"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "compression": "^1.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^4.19.2",
+    "express-rate-limit": "^8.6.2",
+    "helmet": "^8.3.0",
+    "morgan": "^1.11.0",
+    "uuid": "^9.0.1"
+  }
+}
