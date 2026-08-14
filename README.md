@@ -56,5 +56,5 @@ npm run start:pm2
 - `GET /api/documents` - Fetch all ingested documents
 - `POST /api/documents/upload` - Ingest/upload a new document (Mock AI delays)
 - `POST /api/documents/reset` - Wipe the DB and re-seed mock data
-- `POST /api/documents/:id/action` - Record reviewer decisions (APPROVE / REJECT / FLAG)
+- `POST /api/documents/:id/action` - Record reviewer decisions 
 - `GET /api/analytics` - Fetch KPIs and KPI trend data
