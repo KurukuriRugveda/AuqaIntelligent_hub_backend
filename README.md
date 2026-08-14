@@ -2,7 +2,7 @@
 
 This is the Node.js/Express backend for the AquaIntelligent Document Intake & Decision Hub. It provides a REST API to handle document ingestion, mock AI processing, and analytics tracking using a local SQLite database.
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js (v18.0.0 or higher)
@@ -44,7 +44,7 @@ If you have PM2 installed, you can use the ecosystem configuration:
 npm run start:pm2
 ```
 
-## 🛠 Tech Stack
+## Tech Stack
 - **Framework:** Express.js
 - **Database:** SQLite3 (via `better-sqlite3`)
 - **Security:** Helmet, CORS, express-rate-limit
