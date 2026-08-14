@@ -63,7 +63,7 @@ const apiLimiter = rateLimit({
   max: 200,             // max 200 requests per window per IP
   standardHeaders: true,
   legacyHeaders: false,
-  message: { error: 'Too many requests. Please try again later.' },
+  message: { error: 'Too many requests. Please try again later!.' },
 });
 
 app.use('/api', apiLimiter);
