@@ -50,7 +50,7 @@ npm run start:pm2
 - **Security:** Helmet, CORS, express-rate-limit
 - **Optimization:** Compression
 
-## 📂 API Endpoints
+## API Endpoints
 
 - `GET /` - Health check status
 - `GET /api/documents` - Fetch all ingested documents
